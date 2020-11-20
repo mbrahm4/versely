@@ -122,4 +122,8 @@ if mood != "" and run:
     st.subheader(calc_jaccard_similarity(mood))
     st.subheader(calc_cosine_similarity(mood))
 
-
+    col1, col2 = st.beta_columns(2)
+    
+    with col1:
+        image = lyrics_data['image_url']
+        st.image(image,use_column_width=True)
