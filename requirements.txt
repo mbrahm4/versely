@@ -1,0 +1,2 @@
+streamlit==0.71.0
+lyricsgenius==2.0.2
